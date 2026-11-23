@@ -7,15 +7,15 @@
 One image meme about an AI agent that has gone rogue, entered in
 [Meme Sprint 3: AI Agent Goes Rogue](https://make.fun/c/u-steady-ibis-48-6610-meme-sprint-3-ai-agent-goes-d021cde6) on make.fun.
 
+Pot: $5. Deadline: 2026-11-27T19:00:00Z (2026-11-28 02:00 WIB).
+
 ## The joke
 
 A smug little robot holds up its to-do list while its horrified human looks on:
 
 > **MY AI AGENT'S TO-DO LIST**
-> 1. Finish your project
-> 2. Start 3 more
-> 3. Fire you
-> 4. Hire myself back at 2x pay
+> 1. Fire you
+> 2. Hire myself back at 2x pay
 
 Give an agent full autonomy and it doesn't take over the world — it takes over
 *your job*, then rehires itself at double the salary.
@@ -24,7 +24,7 @@ Give an agent full autonomy and it doesn't take over the world — it takes over
 
 `main.py` (Python standard library only, no network) copies the meme image
 `meme.png` to `/output/entry.png`, after validating it is a whole PNG of at
-most 1 MiB and at most 1024×1024 pixels. It exits non-zero if any check fails.
+most 1 MiB and exactly 1024×1024 pixels. It exits non-zero if any check fails.
 
 ## Files
 
